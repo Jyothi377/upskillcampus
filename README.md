@@ -76,8 +76,7 @@ cd food-delivery-app
 ```bash
 cd server
 npm install
-cp .env.example .env
-# Edit .env with your MongoDB URI
+# Edit .env.example with your MongoDB URI
 npm run dev
 ```
 
