@@ -10,7 +10,7 @@ import OrdersPage from "./pages/OrdersPage";
 import RestaurantDashboard from "./pages/RestaurantDashboard";
 
 function App() {
-  const [page, setPage] = useState("home");
+  const [page, setPage] = useState("login");
   const [selectedRestaurant, setSelectedRestaurant] = useState(null);
   const [orderId, setOrderId] = useState(null);
 
