@@ -39,7 +39,13 @@ export function CartProvider({ children }) {
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(() => {
     const saved = localStorage.getItem("fd_user");
-    return saved ? JSON.parse(saved) : null;
+    if (!saved) return null;
+    try {
+      return JSON.parse(saved);
+    } catch {
+      localStorage.removeItem("fd_user");
+      return null;
+    }
   });
 
   const login = (userData) => {
