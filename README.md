@@ -108,9 +108,9 @@ npm run dev
 
 ---
 
-## 👩‍💻 Developer
+## 👩‍💻 
 
-**Yelakanti Jyothi**  
+**Jyothi Yelakanti**  
 Full Stack Internship — UCT & upSkill Campus  
 Domain: Full Stack Development  
 Project: Food Delivery Application
