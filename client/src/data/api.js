@@ -1,6 +1,5 @@
 // Central API service — all backend calls go through here
-const BASE = "http://localhost:5000/api";
-
+const BASE = `${import.meta.env.VITE_API_URL || "http://localhost:5000"}/api`;
 function getToken() {
   const user = localStorage.getItem("fd_user");
   return user ? JSON.parse(user).token : null;
