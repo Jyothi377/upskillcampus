@@ -13,3 +13,8 @@ client/.vite-cache/
 # OS/system files
 .DS_Store
 Thumbs.db
+
+
+**/.env.*
+!**/.env.example
+**/.env.backup
